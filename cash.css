@@ -1,10 +1,69 @@
-*{
 
+ body
+{
+    font-size: 1.7rem;
 }
 
 
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+ .container {
+    background-color: #99d98c;
+    position: relative;
+    width: 95%;
+    height: 90vh;
+    border: 1px solid;
+    margin: auto;
+    padding-top: 3rem;
+    top: 1rem;
+    text-align: center;
+
 }
+    
+label {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
+  }
+  input{
+      width: 20vw;
+      font-size: 1.2rem;
+      padding: 1rem;
+      border-radius: 1rem;
+      border: 2px solid;
+      /* text-align: center; */
+  }
+
+  #check-button{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 15vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: #081c15;
+    border: 2px solid;
+  } 
+  
+    #error-message{
+        text-align: center;
+    }
+
+    .change-table{
+       margin: auto;
+    }
+    .change-table{
+border: 2px solid;
+    }
+
+    .no-of-notes{
+        border: 2px solid;
+        padding: 1rem;
+    }
+  .text{
+      border: 2px solid;
+  }
+
+
+  
+ 
